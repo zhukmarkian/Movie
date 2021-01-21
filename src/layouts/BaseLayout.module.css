@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+.mainWrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex:1;
+    background-color:#282c34 ;
+    padding: 20px;
+    position: relative;
+    overflow-y: auto;
+
+}
+header{
+    background-color: darkslategray;
+}
+footer{
+    background-color:darkslategray;
+}
+header, footer{
+    padding: 10px 20px;
+}
